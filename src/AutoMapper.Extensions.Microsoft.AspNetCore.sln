@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapper.Extensions.Microsoft.AspNetCore", "AutoMapper.Extensions.Microsoft.AspNetCore\AutoMapper.Extensions.Microsoft.AspNetCore.csproj", "{A774D4B3-F1A7-41B2-B0CD-BD620B27937C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{CD36CAAF-1610-4214-93A2-069A32CEDCEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A774D4B3-F1A7-41B2-B0CD-BD620B27937C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A774D4B3-F1A7-41B2-B0CD-BD620B27937C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A774D4B3-F1A7-41B2-B0CD-BD620B27937C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A774D4B3-F1A7-41B2-B0CD-BD620B27937C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD36CAAF-1610-4214-93A2-069A32CEDCEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD36CAAF-1610-4214-93A2-069A32CEDCEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD36CAAF-1610-4214-93A2-069A32CEDCEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD36CAAF-1610-4214-93A2-069A32CEDCEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3678AFA0-6617-4C1A-BC92-CD947AFF27D6}
+	EndGlobalSection
+EndGlobal

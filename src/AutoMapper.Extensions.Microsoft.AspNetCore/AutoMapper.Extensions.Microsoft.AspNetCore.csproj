@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>AutoMapper extensions for ASP.NET Core</Description>
+    <Copyright>Copyright Mike Cole</Copyright>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <Authors>Mike Cole</Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>AutoMapper.Extensions.Microsoft.AspNetCore</AssemblyName>
+    <PackageId>AutoMapper.Extensions.Microsoft.AspNetCore</PackageId>
+    <PackageIconUrl>https://s3.amazonaws.com/automapper/icon.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/mikecole/AutoMapper.Extensions.Microsoft.AspNetCore</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/mikecole/AutoMapper.Extensions.Microsoft.AspNetCore/blob/master/LICENSE</PackageLicenseUrl>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>
