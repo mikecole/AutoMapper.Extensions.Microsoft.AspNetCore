@@ -9,6 +9,8 @@ namespace AutoMapper.Extensions.Microsoft.AspNetCore.Tests
         [Fact]
         public void Ok_ShouldMapSource_ToDestination()
         {
+            Mapper.Reset();
+
             Mapper.Initialize(cfg =>
             {
                 cfg.CreateMap<Source, Destination>();
@@ -29,6 +31,8 @@ namespace AutoMapper.Extensions.Microsoft.AspNetCore.Tests
         [Fact]
         public void Ok_GracefullHandlesNulls()
         {
+            Mapper.Reset();
+
             Mapper.Initialize(cfg =>
             {
                 cfg.CreateMap<Source, Destination>();
