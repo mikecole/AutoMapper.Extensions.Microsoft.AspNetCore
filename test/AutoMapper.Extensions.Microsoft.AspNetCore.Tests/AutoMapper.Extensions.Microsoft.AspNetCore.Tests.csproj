@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\AutoMapper.Extensions.Microsoft.AspNetCore\AutoMapper.Extensions.Microsoft.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\src\AutoMapper.Extensions.Microsoft.AspNetCore\AutoMapper.Extensions.Microsoft.AspNetCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>
