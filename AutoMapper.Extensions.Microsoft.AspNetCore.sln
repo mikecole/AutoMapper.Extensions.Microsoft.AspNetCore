@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapper.Extensions.Microsoft.AspNetCore", "AutoMapper.Extensions.Microsoft.AspNetCore\AutoMapper.Extensions.Microsoft.AspNetCore.csproj", "{A774D4B3-F1A7-41B2-B0CD-BD620B27937C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapper.Extensions.Microsoft.AspNetCore", "src\AutoMapper.Extensions.Microsoft.AspNetCore\AutoMapper.Extensions.Microsoft.AspNetCore.csproj", "{A774D4B3-F1A7-41B2-B0CD-BD620B27937C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{CD36CAAF-1610-4214-93A2-069A32CEDCEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp", "src\TestApp\TestApp.csproj", "{CD36CAAF-1610-4214-93A2-069A32CEDCEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper.Extensions.Microsoft.AspNetCore.Tests", "AutoMapper.Extensions.Microsoft.AspNetCore.Tests\AutoMapper.Extensions.Microsoft.AspNetCore.Tests.csproj", "{FD7BAD50-F5D7-41D2-B569-91E3BE5D3A7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CD36CAAF-1610-4214-93A2-069A32CEDCEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD36CAAF-1610-4214-93A2-069A32CEDCEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD36CAAF-1610-4214-93A2-069A32CEDCEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7BAD50-F5D7-41D2-B569-91E3BE5D3A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7BAD50-F5D7-41D2-B569-91E3BE5D3A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7BAD50-F5D7-41D2-B569-91E3BE5D3A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7BAD50-F5D7-41D2-B569-91E3BE5D3A7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
