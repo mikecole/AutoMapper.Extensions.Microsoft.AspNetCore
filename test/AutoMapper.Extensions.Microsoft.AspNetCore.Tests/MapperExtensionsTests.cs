@@ -29,7 +29,7 @@ namespace AutoMapper.Extensions.Microsoft.AspNetCore.Tests
         }
 
         [Fact]
-        public void Ok_GracefullHandlesNulls()
+        public void Ok_GracefullyHandlesNulls()
         {
             Mapper.Reset();
 

@@ -7,11 +7,12 @@
     <Authors>Mike Cole</Authors>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>AutoMapper.Extensions.Microsoft.AspNetCore</AssemblyName>
-    <PackageId>AutoMapper.Extensions.Microsoft.AspNetCore</PackageId>
+    <PackageId>Cole.AutoMapper.Extensions.Microsoft.AspNetCore</PackageId>
     <PackageIconUrl>https://s3.amazonaws.com/automapper/icon.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/mikecole/AutoMapper.Extensions.Microsoft.AspNetCore</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/mikecole/AutoMapper.Extensions.Microsoft.AspNetCore/blob/master/LICENSE</PackageLicenseUrl>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <Product>Cole.AutoMapper.Extensions.Microsoft.AspNetCore</Product>
   </PropertyGroup>
 
   <ItemGroup>
