@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Description>AutoMapper extensions for ASP.NET Core</Description>
     <Copyright>Copyright Mike Cole</Copyright>
-    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionPrefix>1.1.0</VersionPrefix>
     <Authors>Mike Cole</Authors>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>AutoMapper.Extensions.Microsoft.AspNetCore</AssemblyName>
